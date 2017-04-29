@@ -23,5 +23,3 @@ process.on('SIGINT', function() {
     process.exit(0);
   });
 });
-
-mongoose.model('Course', require('../modules/Course/molecules/courseMolecule'));

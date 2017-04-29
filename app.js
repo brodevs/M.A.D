@@ -30,8 +30,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Usuario API Route
 app.use('/api', require('./modules/User/userRoutes'));
 
-app.use('/api', require('./modules/Course/courseRoutes'));
-
 // app.use('/', index);
 // app.use('/users', users);
 
